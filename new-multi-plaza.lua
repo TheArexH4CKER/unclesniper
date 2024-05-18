@@ -10,15 +10,12 @@ getgenv().autoPlaza = {
         PING_SNPES = false,
 
         SEND_FAILS = true,
-        PING_FAILS = false,
+        PING_FAILS = true,
 
         PING_ALL_EXCLUSIVES = true,
         BUY_ANY_EXCLUSIVE_PRICE = 300000,
         BUY_ANY_HUGE_PRICE = 40000000,
         BUY_ANY_TITANIC_PRICE = 1000000000,
-
-        --BUY_BY_RAP = true, --// FUTURE
-        --RAP_PERCENT = -35, --// (shitty api doesn't return class names thats why not added yet)
 
         BUY_CUSTOM = {
             {Class = "Enchant", Item = {id = "Superior Chest Mimic"}, Cost = 300000000},
@@ -43,9 +40,12 @@ getgenv().autoPlaza = {
             {Class = "Misc", Item = {id = "Hot Cocoa"}, Cost = 1000},
         },
 
+        MIN_CANDIDATES = 3, -- (for stats tracker)
         STATS_TRACKER = true,
-        MIN_SERVER_TIME = 1,
+
+        MIN_BOOTH_CHECKS = 1,
+        MIN_FOUND_SERVERS = 3,
         SERVER_HOPPER = true,
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/174be8434f73167cdcd6db01eb3716dd.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0f103ef58ec991b5be6c9a2dcf83dad1.lua"))()
