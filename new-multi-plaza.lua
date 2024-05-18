@@ -18,6 +18,7 @@ getgenv().autoPlaza = {
         BUY_ANY_TITANIC_PRICE = 1000000000,
 
         BUY_CUSTOM = {
+            {Class = "Misc", Item = {id = "Void Key"}, Cost = 50000},
             {Class = "Misc", Item = {id = "TNT Crate"}, Cost = 2200},
             --{Class = "Misc", Item = {id = "Mini Pinata"}, Cost = 42000},
             {Class = "Misc", Item = {id = "Secret Key"}, Cost = 50000},
@@ -25,6 +26,7 @@ getgenv().autoPlaza = {
             {Class = "Misc", Item = {id = "Basic Item Jar"}, Cost = 15000},
             {Class = "Misc", Item = {id = "Bucket"}, Cost = 5000},
             {Class = "Misc", Item = {id = "Crystal Key"}, Cost = 17000},
+            {Class = "Misc", Item = {id = "Void Key Upper Half"}, Cost = 40000},
             {Class = "Misc", Item = {id = "Secret Key Upper Half"}, Cost = 40000},
             {Class = "Misc", Item = {id = "Crystal Key Upper Half"}, Cost = 13000},
             {Class = "Misc", Item = {id = "Tech Key Upper Half"}, Cost = 30000},
