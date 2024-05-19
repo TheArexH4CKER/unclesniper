@@ -24,7 +24,7 @@ getgenv().autoPlaza = {
             {Class = "Misc", Item = {id = "Void Key"}, Cost = 50000},
             {Class = "Misc", Item = {id = "TNT Crate"}, Cost = 2200},
             --{Class = "Misc", Item = {id = "Mini Pinata"}, Cost = 42000},
-            {Class = "Misc", Item = {id = "Secret Key"}, Cost = 50000},
+            {Class = "Misc", Item = {id = "Secret Key"}, Cost = 52000},
             {Class = "Misc", Item = {id = "Tech Key"}, Cost = 55000},
             {Class = "Misc", Item = {id = "Basic Item Jar"}, Cost = 15000},
             {Class = "Misc", Item = {id = "Bucket"}, Cost = 5000},
