@@ -21,8 +21,8 @@ getgenv().autoPlaza = {
         --RAP_PERCENT = -35, --// (shitty api doesn't return class names thats why not added yet)
 
         BUY_CUSTOM = {
-            {Class = "Enchant", Item = {id = "Superior Chest Mimic"}, Cost = 300000000},
             {Class = "Enchant", Item = {id = "Chest Mimic"}, Cost = 1200000000},
+            {Class = "Enchant", Item = {id = "Superior Chest Mimic"}, Cost = 200000000},
         },
 
         STATS_TRACKER = true,
