@@ -19,7 +19,6 @@ getgenv().autoPlaza = {
 
         BUY_CUSTOM = {
             {Class = "Misc", Item = {id = "Secret Key"}, Cost = 62500},
-            {Class = "Misc", Item = {id = "Tech Key"}, Cost = 55000},
             {Class = "Misc", Item = {id = "Nightmare Fuel"}, Cost = 500000},
         },
 
