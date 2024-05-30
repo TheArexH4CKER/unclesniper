@@ -1,6 +1,6 @@
 getgenv().autoPlaza = {
     Sniper = {
-        Enabled = false,
+        Enabled = true,
 
         DISCORD_ID = "667064890359545917",
         WEBHOOK_URL = "https://discord.com/api/webhooks/1201931621570445322/yKIPu11QYkWCH9IolW4m159LOV0cF8m7z-IY4XDWRDez-Q3qViCLPqv6iPH7XrBuUpsN",
