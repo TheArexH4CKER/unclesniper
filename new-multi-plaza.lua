@@ -13,13 +13,13 @@ getgenv().autoPlaza = {
         PING_FAILS = true,
 
         PING_ALL_EXCLUSIVES = true,
-        BUY_ANY_EXCLUSIVE_PRICE = 300000,
-        BUY_ANY_HUGE_PRICE = 40000000,
-        BUY_ANY_TITANIC_PRICE = 1000000000,
+        BUY_ANY_EXCLUSIVE_PRICE = 2000000,
+        BUY_ANY_HUGE_PRICE = 60000000,
+        BUY_ANY_TITANIC_PRICE = 5000000000,
 
         BUY_CUSTOM = {
-            {Class = "Misc", Item = {id = "Golden Prison Key"}, Cost = 65000},
-            {Class = "Misc", Item = {id = "Tech Key"}, Cost = 48000},
+            {Class = "Pet", Item = {id = "Blazing Shark"}, Cost = 2500000},
+            {Class = "Pet", Item = {id = "Blazing Corgi"}, Cost = 3300000},
         },
 
         MIN_CANDIDATES = 3, -- (for stats tracker)
